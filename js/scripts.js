@@ -20,3 +20,13 @@ function crypto (x){
   }
   return box;
 }
+function printCrypto(box){
+
+  for(let i = 0; i < box.length; i++)
+  {
+    for(let j = 0; j < box[i].length; j++ ) {
+      console.log(box[j][i]);
+    }
+  }
+}
+//printCrypto(crypto("don't compare yourself to others, compare yourself to the person you were yesterday"));
